@@ -96,7 +96,7 @@ class CheckoutController
             $_SESSION['checkout'] = "<script>alert('Đặt hàng thành công.')</script>";
             redirect(
 			$router->generate(
-				'cart',
+				'user.bill',
 			)
 		);
         }

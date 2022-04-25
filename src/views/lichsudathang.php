@@ -1,4 +1,11 @@
 <?php
+    if(isset($_SESSION['checkout']))
+    {
+        echo $_SESSION['checkout'];
+        unset($_SESSION['checkout']);
+    }
+?>
+<?php
     include('include/nav.php');
 ?>
 <style>
