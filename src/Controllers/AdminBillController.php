@@ -59,7 +59,7 @@ class AdminBillController
         }
         else
         {
-            $_SESSION['delete-bill'] = "<script>alert('Không thể xóa đơn hàng. Vì đơn hàng chưa được xử lý.');</script>";
+            $_SESSION['delete-bill'] = "<script>alert('Không thể xóa đơn hàng. Chỉ được xóa đơn hàng mà khách hàng đã hủy');</script>";
             redirect(
                 $router->generate(
                     'admin.showbill'	

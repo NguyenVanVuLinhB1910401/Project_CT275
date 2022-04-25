@@ -44,14 +44,18 @@
 
                 <div class="col-md-5 mt-3 pt-2">
                     <input class="form-control btn-success rounded border p-2 " type="submit" name="addcart"
-                        value="Đặt hàng">
+                        value="Add Cart">
                 </div>
                 <input type="hidden" name="tensp" value="<?php echo $food->title; ?>">
                 <input type="hidden" name="gia" value="<?php echo $food->price; ?>">
                 <input type="hidden" name="hinh" value="<?php echo $food->image_name;?>">
+            </form>
         </div>
     </div>
-    </form>
+    <div class="text-center row p-2 mx-auto text-center">
+        <p>© 2021 Copyright: Vu Linh developer</p>
+    </div>
+
 </div>
 </div>
 
